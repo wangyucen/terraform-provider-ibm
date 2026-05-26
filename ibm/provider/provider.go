@@ -2170,6 +2170,7 @@ func Validator() validate.ValidatorDict {
 				"ibm_is_bare_metal_server_network_attachment": vpc.ResourceIBMIsBareMetalServerNetworkAttachmentValidator(),
 				"ibm_is_bare_metal_server_network_interface":  vpc.ResourceIBMIsBareMetalServerNetworkInterfaceValidator(),
 				"ibm_is_bare_metal_server":                    vpc.ResourceIBMIsBareMetalServerValidator(),
+				"ibm_is_bare_metal_server_action":             vpc.ResourceIBMISBareMetalServerActionValidator(),
 
 				// cluster
 
